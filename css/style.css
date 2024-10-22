@@ -1,0 +1,39 @@
+@import url(../css/bloks/header.css);
+@import url(../css/bloks/advantages.css);
+@import url(../css/bloks/consultation.css);
+@import url(../css/bloks/carousel.css);
+@import url(../css/bloks/catalog.css);
+@import url(../css/bloks/feed.css);
+@import url(../css/bloks/button.css);
+@import url(../css/bloks/footer.css);
+@import url(../css/fonts.css);
+@import url(../css/bloks/forms.css);
+@import url(../css/bloks/overlay.css);
+@import url(../css/bloks/pageup.css);
+@import url(../css/animations.css);
+
+html {
+  font-family: "Museo", sans-serif;
+}
+
+body {
+  /* -webkit-box-sizing: border-box; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1050px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+:root {
+  --button-color: #c70101;
+  --title-text-color: #ffffff;
+  --text-color: #0d0d0d;
+  --catalog-old-text: #555555;
+  --bg-color: orange;
+  --catalog-border-color: #e8e8e8;
+}
